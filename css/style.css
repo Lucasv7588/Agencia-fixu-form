@@ -1,0 +1,65 @@
+.row{
+    display: flex;
+}
+
+.title {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h3{
+    margin: 0;
+    padding: 3%;
+}
+
+.close{
+    font-size: 2.92rem!important;
+    margin: 0 3% 0 0;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.close:hover{
+    transform: scale(1.1);
+}
+
+.close:active{
+    transform: scale(1);
+}
+
+.form{
+    padding: 8px 0;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #ffd54f !important;
+}
+
+.input-field input[type=text]:focus {
+border-bottom: 1px solid #ffd54f !important;
+box-shadow: 0 1px 0 0 #ffd54f !important;
+}
+
+.checkbox-yellow[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #ffd54f !important;
+    background-color: #ffd54f !important;
+}
+
+a:link, a:visited {
+    color: #ffd54f;
+    text-decoration: none;
+}
+
+
+.btn-container{
+    margin-top: 8px;
+}
+
+.contact-img {
+    background-image: url('../img/background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
